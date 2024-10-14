@@ -1,0 +1,101 @@
+body {
+  background: #8783D1;
+}
+
+.plane {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  height: 220px;
+  width: 220px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.sun {
+  position: absolute;
+  top: 6%;
+  left: 6%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #E0FF4F;
+}
+
+.plane_wing {
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.plane_wing.left {
+  left: -90px;
+  top: 40px;
+}
+
+.plane_wing.right {
+  right: -90px;
+  top: 40px;
+}
+
+.cockpit_window {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 120px;
+  height: 40px;
+  background-color: #000000; 
+  border-radius: 10px 10px 10px 10px; 
+}
+
+.ring_plane {
+position: absolute;
+top: 52%;
+left: 37%;
+height: 50px;
+width: 50px;
+background: transparent;
+border-radius: 50%;
+border: 2px solid black;
+}
+
+.plane_back1 {
+position: absolute;
+height: 150px;
+top: -60%;
+left: 46%;
+width: 20px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.plane_back2 {
+position: absolute;
+height: 20px;
+top: 0%;
+left: -2%;
+width: 230px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.engine {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: #343434;
+  border-radius: 50%;
+  border: 20px solid white; 
+}
+
+.engine.left {
+  right: -200px;
+  top: 50px;
+}
+
+.engine.right {
+  left: -200px;
+  top: 50px;
+}
